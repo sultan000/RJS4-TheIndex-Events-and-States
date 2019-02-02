@@ -11,7 +11,7 @@ class AuthorCard extends Component {
             <img
               className="card-img-top img-fluid"
               src={author.imageUrl}
-              alt={}
+              alt={authorName}
             />
           </div>
           <div className="card-body">
